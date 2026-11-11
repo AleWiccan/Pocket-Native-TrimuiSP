@@ -1,4 +1,4 @@
-# Pocket Native en la Trimui Smart Pro (probado con Pokémon X)
+# Pocket Native en la Trimui Smart Pro
 
 Parche para ejecutar juegos de Nintendo 3DS recompilados con
 [Pocket Native](https://github.com/whovian64/pocket-native) en la **Trimui Smart Pro**
