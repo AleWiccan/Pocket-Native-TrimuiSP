@@ -43,6 +43,7 @@ cd "ruta/a/guardar/el/proyecto"
 git clone -c core.autocrlf=false https://github.com/whovian64/pocket-native.git
 cd pocket-native
 git checkout 178f2b0f4f3444ed8d6af49fe5c130fe3094b598
+# copia pocket-native-trimui.patch de este repositorio a pocket-native
 git apply --whitespace=nowarn ..\pocket-native-trimui.patch
 
 # copia tu volcado a esta carpeta (pocket-native) y ejecuta el kit del proyecto
