@@ -90,7 +90,7 @@ echo "[launcher] cpu: governor $(cat $CPUP/scaling_governor) max $(cat $CPUP/sca
 
 # --- Entorno del motor. KMS=1 falla sin libgbm y cae a /dev/fb0; NULL_WINDOW es para la PowerVR.
 export ZAKURO_FAST=1 ZAKURO_KMS=1 ZAKURO_FBDEV_NULL_WINDOW=1
-export ZAKURO_DATA="$DATA" ZAKURO_RECOMPILED="$GAME/title.so" ZAKURO_SHADER_MANIFEST="$DATA/shaders.txt"
+export ZAKURO_DATA="$DATA" ZAKURO_RECOMPILED="$GAME/title.so" ZAKURO_SHADER_MANIFEST="$DATA/shaders.txt" ZAKURO_VERTEX_LIST="$GAME/vertex/vertex.txt"
 export POCKET_NATIVE_TITLES="$BASE/titles" POCKET_NATIVE_POWER="$CONF/power_trimui.sh" POCKET_NATIVE_CONFIG="$CONF"
 [ -f "$DATA/drops.txt" ] && export ZAKURO_DROP_DRAWS="$(cat "$DATA/drops.txt")"
 echo 1 > /proc/sys/debug/exception-trace 2>/dev/null
