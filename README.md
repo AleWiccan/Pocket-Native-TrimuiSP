@@ -88,5 +88,5 @@ Sal siempre con FN + Start, no reiniciando la consola, para que se guarden parti
 
 - [Pocket Native](https://github.com/whovian64/pocket-native), fork de Zakuro, por whovian64 y colaboradores.
   Consulta su `LICENSE`, `CREDITS.md` y `THIRD_PARTY_LICENSES.txt`; el parche es una modificación de ese código.
-- Los lanzadores y este README se publican bajo licencia **[elige: MIT / otra]**, ©AleWiccan.
+- Los lanzadores y este README se publican bajo licencia **MIT**, ©AleWiccan.
 - Pokémon, Nintendo 3DS y los nombres relacionados son marcas de sus propietarios.
